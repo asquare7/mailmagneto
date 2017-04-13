@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailVerifyTester", "EmailVerifyTester\EmailVerifyTester.csproj", "{7C410315-563D-4291-831E-CA19D2CB5806}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailValidators", "F:\Samples\Nucleon DNS level e-mail validation\C#\EmailValidators.csproj", "{A2098F80-407A-400E-A488-CD445CE46531}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C410315-563D-4291-831E-CA19D2CB5806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C410315-563D-4291-831E-CA19D2CB5806}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C410315-563D-4291-831E-CA19D2CB5806}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C410315-563D-4291-831E-CA19D2CB5806}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2098F80-407A-400E-A488-CD445CE46531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2098F80-407A-400E-A488-CD445CE46531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2098F80-407A-400E-A488-CD445CE46531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2098F80-407A-400E-A488-CD445CE46531}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

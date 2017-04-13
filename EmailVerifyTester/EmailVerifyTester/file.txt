@@ -1,0 +1,3 @@
+2017-04-13 14:23:47.7272|INFO|EmailVerifyTester.Controllers.HomeController|Email: nasir@codeparadox.comValid: TrueDomain: codeparadox.comDetails: mx.zoho.com
+2017-04-13 14:26:47.5063|INFO|EmailVerifyTester.Controllers.HomeController|Email: nasirha@plaza101.comValid: True Domain: plaza101.com Details: mail.devasp.com
+2017-04-13 14:30:34.7068|INFO|EmailVerifyTester.Controllers.HomeController|Email: nasirha@plaza101.com, Valid: True, Domain: plaza101.com, Details: mail.devasp.com

@@ -1,0 +1,22 @@
+2017-04-13 15:37:52.2601|ERROR|EmailValidators.Validator|System.Net.Sockets.SocketException (0x80004005): No such host is known
+   at System.Net.Dns.GetAddrInfo(String name)
+   at System.Net.Dns.InternalGetHostByName(String hostName, Boolean includeIPv6)
+   at System.Net.Dns.GetHostEntry(String hostNameOrAddress)
+   at EmailValidators.Validator.GetMX(String domain, String dnsIP) in F:\Samples\Nucleon DNS level e-mail validation\C#\Validator.cs:line 120
+2017-04-13 16:08:36.4839|ERROR|EmailValidators.Validator|System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 216.52.72.121:25
+   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at EmailValidators.Validator.ValidatEmailAddress(String emailFrom, String emailTo, String smtp, Int32 port) in F:\Samples\Nucleon DNS level e-mail validation\C#\Validator.cs:line 31
+2017-04-13 16:17:55.5503|ERROR|EmailValidators.Validator|System.Net.Sockets.SocketException (0x80004005): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond 64.225.158.42:25
+   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at EmailValidators.Validator.ValidatEmailAddress(String emailFrom, String emailTo, String smtp, Int32 port) in F:\Samples\Nucleon DNS level e-mail validation\C#\Validator.cs:line 31
+2017-04-13 16:37:17.4911|ERROR|EmailValidators.Validator|System.IndexOutOfRangeException: Index was outside the bounds of the array.
+   at EmailValidators.Validator.GetMX(String domain, String dnsIP) in F:\Samples\Nucleon DNS level e-mail validation\C#\Validator.cs:line 125
+2017-04-13 16:45:23.4251|ERROR|EmailValidators.Validator|System.Net.Sockets.SocketException (0x80004005): No such host is known
+   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at EmailValidators.Validator.ValidatEmailAddress(String emailFrom, String emailTo, String smtp, Int32 port) in F:\Samples\Nucleon DNS level e-mail validation\C#\Validator.cs:line 31
+2017-04-13 16:46:27.3597|ERROR|EmailValidators.Validator|System.Net.Sockets.SocketException (0x80004005): No such host is known
+   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at EmailValidators.Validator.ValidatEmailAddress(String emailFrom, String emailTo, String smtp, Int32 port) in F:\Samples\Nucleon DNS level e-mail validation\C#\Validator.cs:line 31
+2017-04-13 16:47:38.0265|ERROR|EmailValidators.Validator|System.Net.Sockets.SocketException (0x80004005): No such host is known
+   at System.Net.Sockets.TcpClient..ctor(String hostname, Int32 port)
+   at EmailValidators.Validator.ValidatEmailAddress(String emailFrom, String emailTo, String smtp, Int32 port) in F:\Samples\Nucleon DNS level e-mail validation\C#\Validator.cs:line 31
